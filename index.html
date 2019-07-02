@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Mar Mar Game</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="" class="img-fluid" alt="japaneseFood">
+                <h6 class="text-center">I want some Japanese Eats</h6>
+            </div>
+        </div>
+    </header>
+
+    <section class="game">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Press a Key to Start!</h1>
+                    <p id="winStatus"></p>
+                    <p id="loseStatus"></p>
+                    <p id="letterCheck"></p>
+                    <div id="gameDisplay"></div>
+                    <p id="gameStatus"></p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <p class="text-center">Lives Left: <span id="lives">5</span></p>
+            </div>
+            <div class="col-md-6">
+                <p class="text-center">Letters Guessed: <span id="guessed"></span></p>
+            </div>
+            <div class="col-md-6">
+                <p class="text-center">Your Last Guess: <span id="lastGuess"></span></p>
+            </div>
+            <div class="col-md-3">
+                <p class="text-center">Wins: <span id="myWins"></span></p>
+            </div>
+            <div class="col-md-3">
+                <p class="text-center">Loses: <span id="mylosses"></span></p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="assets/javascript/game.js"></script>
+    <!-- <script type="text/javascript" src="assets/javascript/mario.js"></script> -->
+</body>
+
+</html>
